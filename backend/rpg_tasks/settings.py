@@ -109,3 +109,9 @@ SIMPLE_JWT = {
 
 # CORS — allow all origins for local development
 CORS_ALLOW_ALL_ORIGINS = True
+
+ALLOWED_HOSTS = [
+    "luminatask-task-managment-system.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
